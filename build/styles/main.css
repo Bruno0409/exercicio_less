@@ -6,6 +6,7 @@
 }
 body {
   background-color: #faf5f5;
+  color: #fff;
 }
 li {
   list-style: none;
@@ -35,7 +36,7 @@ header .container {
   margin-left: 24px;
 }
 .menu li a {
-  color: #fff;
+  color: #182C61;
   text-decoration: none;
 }
 section {
@@ -66,7 +67,7 @@ section {
 .product-button:hover {
   background-color: #4cd137;
 }
-@media screen and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 80%;
   }
@@ -75,7 +76,7 @@ section {
     column-gap: 3%;
   }
 }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .products {
     display: block;
   }
